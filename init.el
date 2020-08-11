@@ -167,3 +167,6 @@
 
 ;; Switch to visible bell
 ; (setq visible-bell 1)
+
+;; Set default working directory
+(cd "Users/yifanmen/")
