@@ -81,10 +81,11 @@
   :init (setq markdown-command "/usr/local/bin/multimarkdown"))
 
 ;; Set default font
-;(set-default-font "Office Code Pro -16")
+(add-to-list 'default-frame-alist
+	     '(font . "Office Code Pro-16"))
 
 ;; Disable scroll bar display
-;(scroll-bar-mode -1)
+(scroll-bar-mode -1)
 
 ;; Set apropos
 (setq apropos-sort-by-scores t)
@@ -141,7 +142,7 @@
 (ido-hacks-mode)
 
 ;; Disable toolbar
-;(tool-bar-mode -1)
+(tool-bar-mode -1)
 
 ;; Use Hippie Expand
 (global-set-key [remap dabbrev-expand] 'hippie-expand)
@@ -160,9 +161,9 @@
 ;; Use dired-x
 (require 'dired-x)
 
-;(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (setq inhibit-startup-screen t)
 
 ;; Switch to visible bell
-;; (setq visible-bell 1)
+; (setq visible-bell 1)
