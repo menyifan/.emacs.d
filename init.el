@@ -85,7 +85,7 @@
 	     '(font . "Office Code Pro-16"))
 
 ;; Disable scroll bar display
-(scroll-bar-mode -1)
+;(scroll-bar-mode -1)
 
 ;; Set apropos
 (setq apropos-sort-by-scores t)
@@ -169,4 +169,4 @@
 ; (setq visible-bell 1)
 
 ;; Set default working directory
-(cd "Users/yifanmen/")
+;(cd "Users/yifanmen/")
